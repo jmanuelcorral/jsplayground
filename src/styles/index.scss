@@ -4,3 +4,25 @@ body {
   color: $body-color;
   font-family: sans-serif;
 }
+
+.draggable {
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  background-color: #2196F3;
+  color: #fff;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  cursor: move;
+}
+
+.draggable_red {
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  background-color: rgb(243, 33, 33);
+  color: #fff;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  cursor: move;
+}
