@@ -15,6 +15,7 @@ export function bind(element, className) {
     }
   
     function calculateCursorPosition(e) {
+      console.log(e);
       elementPosition.x = mousePosition.x - e.clientX;
       elementPosition.y = mousePosition.y - e.clientY;
       mousePosition.x = e.clientX;
